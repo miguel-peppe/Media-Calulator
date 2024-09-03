@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio - Algoritmo de Média de Notas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="form-section">
+<h1>Portfólio - Algoritmo de Média de Notas</h1>
+<p class="description">
+Este projeto demonstra a construção de um algoritmo simples para calcular a média de notas dos alunos.
+
+</p>
+
+<h2>Exemplo de Uso</h2>
+<input type="number" placeholder="Português" id="nota1">
+<input type="number" placeholder="Matemática" id="nota2">
+<input type="number" placeholder="Geografia" id="nota3">
+<input type="number" placeholder="Historia" id="nota4">
+
+
+<input type="button" onclick="calcularMedia()" value="Calcular Média">
+</div>
+<div class="status-section">
+<p class="result">Média: <span id="resultado"></span></p>
+<p class="result">Status: <span id="passou"></span></p>
+<p class="result">Reprovados: <span id="anotacoes"></span></p>
+</div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
